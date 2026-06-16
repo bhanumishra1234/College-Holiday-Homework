@@ -1,0 +1,15 @@
+interface Playable {
+    void play();
+}
+class Veena implements Playable {
+    @Override
+    public void play() {
+        System.out.println("meena");
+    }
+}
+class Saxophone implements Playable {
+    @Override
+    public void play() {
+        System.out.println("Saxophone");
+    }
+}
