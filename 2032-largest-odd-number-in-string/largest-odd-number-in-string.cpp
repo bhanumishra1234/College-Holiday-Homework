@@ -5,6 +5,7 @@ public:
             int odd = num[i] - '0';
             if(odd % 2 != 0){
                 return num.substr(0, i + 1);
+                break;
             }
         }
         return "";
